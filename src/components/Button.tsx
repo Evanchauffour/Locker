@@ -20,7 +20,7 @@ export default function Buttons({
   return (
     <button
       type="submit"
-      className={`text-xs sm:text-base py-2 px-4 bg-primary-600 text-text rounded-md bg-gradient-to-b ${isDark ? "from-darkGray to-black border border-white border-opacity-20" : "from-primary to-secondary"} hover:opacity-80 ${disabled ? "cursor-not-allowed opacity-80 hover:opacity-80" : ""}${className}`}
+      className={`text-xs sm:text-base py-2 px-4 bg-primary-600 text-text rounded-md bg-gradient-to-b ${isDark ? "from-black to-black border border-white border-opacity-20 text-white" : "from-primary to-secondary"} hover:opacity-80 ${disabled ? "cursor-not-allowed opacity-60 hover:opacity-60" : ""}${className}`}
       onClick={click}
       disabled={disabled}
     >

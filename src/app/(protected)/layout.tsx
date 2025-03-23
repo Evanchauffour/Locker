@@ -7,9 +7,9 @@ export default async function Layout({
   children: React.ReactNode;
 }>) {
   return (
-      <div className="flex flex-col min-h-screen mx-24 mt-4">
+      <div className="flex flex-col gap-10 h-screen pb-10">
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 overflow-hidden mx-24">{children}</main>
       </div>
   );
 }
